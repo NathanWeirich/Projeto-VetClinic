@@ -1,6 +1,5 @@
 const { DataTypes } = require("sequelize");
-
-const db = require("../db/conn");
+const db = require("../config/database");
 
 const Tutor = db.define("Tutor", {
   name: {
