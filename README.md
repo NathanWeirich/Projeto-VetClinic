@@ -3,9 +3,13 @@
 # dados .env
 
 HOST="localhost"
+
 USER="root"
+
 PASSWORD=""
+
 DATABASE="vetclinic"
+
 DIALECT="sqlite"
 
 # Como Rodar
