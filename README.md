@@ -24,14 +24,21 @@ DIALECT="sqlite"
 
 id = 1
 
-(TUTORES)
+**TUTORES:**
 
 GET - localhost:3000/tutors
+
 POST(tutor) - localhost:3000/tutor
+
 PUT(tutor) - localhost:3000/tutor/1
+
 DELETE(tutor) - localhost:3000/tutor/1
 
-(PETS)
+**PETS:**
+
 POST(pet) - localhost:3000/pet/1
+
 PUT(pet) - localhost:3000/pet/1/tutor/1
+
 DELETE(pet) - localhost:3000/pet/1/tutor/1
+
