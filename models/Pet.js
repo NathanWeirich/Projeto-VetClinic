@@ -2,8 +2,6 @@ const { DataTypes } = require("sequelize");
 
 const db = require("../db/conn");
 
-const Tutor = require("./Tutor");
-
 const Pet = db.define("Pet", {
   name: {
     type: DataTypes.STRING,
@@ -25,8 +23,10 @@ const Pet = db.define("Pet", {
     type: DataTypes.DATE,
     allowNull: false,
   },
+  tutorId: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
 });
-
-Pet.belongsTo(Tutor);
 
 module.exports = Pet;
